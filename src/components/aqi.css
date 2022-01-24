@@ -1,0 +1,142 @@
+body {
+    background-image: url('https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position:initial;
+    transition: 0;
+
+  }
+
+.form-control {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 ;
+    min-width: 145vh;
+    background: transparent;
+    color: black;
+}
+
+.form-control ::placeholder {
+    color:black
+}
+
+
+
+.container {
+    align-items:center;
+    text-align: center;
+    padding: 250px;
+    color: black;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 80px;
+    text-shadow: 1px 3px white;
+    background: transparent;
+    font-family: Brush Script MT;
+    box-shadow: 0px 10px 20px white;
+}
+
+.btn {
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    border: 3px solid #031D39;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
+    color: #031D39;
+    box-shadow: 0px 10px 20px gray;
+}
+
+.btn:hover {
+    border: 2px solid white ;
+    background: black;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0px 10px 20px gray;
+}
+
+.mobile {
+    max-width: 150%;
+    margin-left: -2vw;
+    height: auto;
+  }
+  
+  .inverted {
+    filter: invert(100%);
+  }
+
+.info-icon-container {
+    position: relative;
+}
+  
+.info-icon {
+    position: absolute;
+    filter: invert(100%);
+    transform: scale(0.8);
+    margin-left: 0.4vw;
+    margin-bottom: 0.9vh;
+}
+  
+.info-icon:hover {
+    filter: invert(85%);
+}
+
+select,
+  option {
+    opacity: 0.75;
+    color: black;
+}
+
+.red {
+    background-color: red;
+    opacity: 0.65;
+    color: white;
+}
+  
+.yellow {
+    background-color: yellow;
+    opacity: 0.65;
+}
+  
+.green {
+    background-color: green;
+    opacity: 0.65;
+    color: white;
+}
+
+table {
+    padding: 0px;
+    margin: 0px 80px 40px -170px;
+}
+
+thead th {
+    border-bottom: 3px solid rgb(1, 1, 54);
+    background-color: black;
+    color: white;
+    box-shadow: 0px 10px 15px gray;
+    text-transform: uppercase;
+    border-spacing:1px;
+
+
+}
+
+th,
+td {
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(1, 1, 54);
+    box-shadow: 0px 10px 20px gray;
+
+
+ }
+
+
+
+
+
