@@ -6,7 +6,6 @@ import Aqi from './components/aqi';
 import City from './components/city';
 import Home from './components/home';
 import Sensor from './components/sensor';
-import HeroSection from './components/HeroSection/HeroSection';
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route path="/city" element={<City/>}></Route>
         <Route path="/sensor" element={<Sensor/>}></Route>
       </Routes>
-      <HeroSection/>
     </Router>
 
   );
