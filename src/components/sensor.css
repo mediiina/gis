@@ -1,0 +1,9 @@
+h3 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: Lucida Handwriting;
+    opacity: 0.8;
+    text-shadow: 1px 3px white;
+    align-items: center;
+}

@@ -22,11 +22,11 @@ export const StyledCard = styled.div`
   }
   h2 {
       color: white;
-      font-family: Brush Script MT;
-      font-size: 40px;
+      font-family: Lucida Handwriting;
+      font-size: 20px;
       text-align: center;
       padding: 15px;
-      text-shadow: 1px 3px #0D0D55;
+      text-shadow: 1px 3px #0D0D55
   }
 
 

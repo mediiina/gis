@@ -24,7 +24,8 @@ function Navbar() {
             <NavbarLink to="/home"> Home</NavbarLink>
             <NavbarLink to="/about"> About</NavbarLink>
             <NavbarLink to="/aqi"> Aqi</NavbarLink>
-            <NavbarLink to="/city"> City</NavbarLink>
+            <NavbarLink to="/city"> Butmir</NavbarLink>
+            <NavbarLink to="/sensor"> Sensor</NavbarLink>
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -41,9 +42,10 @@ function Navbar() {
       {extendNavbar && (
         <NavbarExtendedContainer>
           <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
-          <NavbarLinkExtended to="/products"> About</NavbarLinkExtended>
-          <NavbarLinkExtended to="/contact"> Aqi</NavbarLinkExtended>
-          <NavbarLinkExtended to="/about"> City</NavbarLinkExtended>
+          <NavbarLinkExtended to="/about"> About</NavbarLinkExtended>
+          <NavbarLinkExtended to="/aqi"> Aqi</NavbarLinkExtended>
+          <NavbarLinkExtended to="/city"> Butmir</NavbarLinkExtended>
+          <NavbarLinkExtended to="/sensor"> Sensor</NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

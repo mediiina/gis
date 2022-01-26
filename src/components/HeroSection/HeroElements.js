@@ -43,9 +43,9 @@ export const HeroContent = styled.div`
 `
 export const HeroH1 = styled.div`
   color: black;
-  font-size: 100px;
+  font-size: 80px;
   text-align: center;
-  font-family: Brush Script MT;
+  font-family: Lucida Handwriting;
   background-color: transparent;
   padding: 80px;
   opacity: 0.6;

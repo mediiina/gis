@@ -34,8 +34,8 @@ class Search extends Component {
     } = this.state;
 
     if (
-      selectedCountry != "" &&
-      previousState.selectedCountryCode != this.state.selectedCountryCode
+      selectedCountry !== "" &&
+      previousState.selectedCountryCode !== this.state.selectedCountryCode
     ) {
       this.setState({
         show_searchButtonDisabled: false,
@@ -46,7 +46,7 @@ class Search extends Component {
     if (
       selectedCountry === "" &&
       selectedCountryCode === "" &&
-      previousState.selectedCountry != ""
+      previousState.selectedCountry !== ""
     ) {
       this.setState({
         show_searchButtonDisabled: true,
@@ -297,9 +297,9 @@ class Search extends Component {
       <div className="container">
         <div className="row justify-content-around">
           <div className="col-10">
-            <h2 className="mt-5 mb-4 text-center">
-              Check the air quality in Europe
-            </h2>
+            <h1 className="mt-5 mb-4 text-center">
+              Air quality in Europe
+            </h1>
           </div>
         </div>
 

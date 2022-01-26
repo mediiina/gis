@@ -1,3 +1,4 @@
+import React from 'react'
 import { StyledCard } from './Card.styled'
 
 export default function Card({ item: { id, title, body, image } }) {

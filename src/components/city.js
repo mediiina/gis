@@ -1,8 +1,10 @@
 import React from 'react';
+import Map from './Map'
+
 
 const city = () => {
   return <div>
-      mm
+      <Map/>
   </div>;
 };
 
