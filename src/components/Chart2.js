@@ -124,7 +124,7 @@ function Chart2() {
           bottom: 5,
         }}
       >
-        <CartesianGrid  horizontal="true" vertical="" stroke="black"/>
+        <CartesianGrid  horizontal="true" vertical="" stroke="black" strokeWidth="2"/>
         <XAxis dataKey="date" tick={{fill:"black"}}/>
         <YAxis tick={{fill:"black"}} />
         <Tooltip contentStyle={{ backgroundColor: "#B9D6FF", color: "black" }} itemStyle={{ color: "black" }} cursor={false}/>
