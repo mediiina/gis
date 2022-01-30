@@ -11,7 +11,7 @@ import {
   OpenLinksButton,
   NavbarLinkExtended,
 } from "../styles/Navbar.style";
-import LogoImg from "../assets/air.png";
+import LogoImg from "../assets/favicon.ico";
 
 function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
